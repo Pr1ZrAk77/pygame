@@ -75,7 +75,7 @@ def start_screen():
     fon = pygame.transform.scale(load_image('1.jpg'), (dis_width, dis_height))
     dis.blit(fon, (0, 0))
     font = pygame.font.Font(None, 30)
-    text_coord = 350
+    text_coord = 450
     for line in intro_text:
         string_rendered = font.render(line, 1, pygame.Color(255, 194, 137))
         intro_rect = string_rendered.get_rect()
