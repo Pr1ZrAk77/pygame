@@ -72,7 +72,7 @@ def terminate():
 def start_screen():
     intro_text = ["НАЖМИТЕ НА ЛЮБУЮ КНОПКУ"]
 
-    fon = pygame.transform.scale(load_image('1.jpg'), (dis_width, dis_height))
+    fon = pygame.transform.scale(load_image('well.jpg'), (dis_width, dis_height))
     dis.blit(fon, (0, 0))
     font = pygame.font.Font(None, 30)
     text_coord = 450
